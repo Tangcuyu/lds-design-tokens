@@ -1,5 +1,5 @@
 {
-  "name": "style-dictionary-demo",
+  "name": "lds-design-tokens",
   "version": "0.0.1",
   "description": "Implementation of Design Tokens using Style Dictionary",
   "main": "build.js",
@@ -8,7 +8,7 @@
     "build": "node ./build.js",
     "watch": "chokidar 'src/**/*.json' -c 'node ./build.js'"
   },
-  "author": "Cristiano Rastelli",
+  "author": "Tangcuyu",
   "license": "MIT",
   "devDependencies": {
     "chokidar-cli": "^1.2.0",

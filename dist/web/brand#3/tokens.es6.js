@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue Sep 18 2018 18:43:06 GMT+0100 (BST)
+ * Generated on Mon, 17 Jul 2023 09:05:01 GMT
  */
 
 export const TOKEN_ALIAS_COLOR_BRAND_PRIMARY = "#EA4335";
