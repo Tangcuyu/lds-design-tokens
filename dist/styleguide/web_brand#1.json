@@ -3,12 +3,14 @@
     "value": "#3B5998",
     "type": "color",
     "comment": "this is a comment",
+    "filePath": "src/brands/brand#1/color.json",
+    "isSource": true,
     "original": {
       "value": "#3B5998",
       "type": "color",
       "comment": "this is a comment"
     },
-    "name": "token-alias-color-brand-primary",
+    "name": "lds-alias-color-brand-primary",
     "attributes": {
       "category": "alias",
       "type": "color",
@@ -26,12 +28,14 @@
     "value": "#4267B2",
     "type": "color",
     "comment": "this one is a comment too",
+    "filePath": "src/brands/brand#1/color.json",
+    "isSource": true,
     "original": {
       "value": "#4267B2",
       "type": "color",
       "comment": "this one is a comment too"
     },
-    "name": "token-alias-color-brand-secondary",
+    "name": "lds-alias-color-brand-secondary",
     "attributes": {
       "category": "alias",
       "type": "color",
@@ -47,10 +51,12 @@
   },
   {
     "value": "36px",
+    "filePath": "src/globals/avatar/index.json",
+    "isSource": true,
     "original": {
       "value": "36px"
     },
-    "name": "token-avatar-size-xxsm",
+    "name": "lds-avatar-size-xxsm",
     "attributes": {
       "category": "avatar",
       "type": "size",
@@ -64,10 +70,12 @@
   },
   {
     "value": "72px",
+    "filePath": "src/globals/avatar/index.json",
+    "isSource": true,
     "original": {
       "value": "72px"
     },
-    "name": "token-avatar-size-sm",
+    "name": "lds-avatar-size-sm",
     "attributes": {
       "category": "avatar",
       "type": "size",
@@ -81,10 +89,12 @@
   },
   {
     "value": "90px",
+    "filePath": "src/globals/avatar/index.json",
+    "isSource": true,
     "original": {
       "value": "90px"
     },
-    "name": "token-avatar-size-md",
+    "name": "lds-avatar-size-md",
     "attributes": {
       "category": "avatar",
       "type": "size",
@@ -98,10 +108,12 @@
   },
   {
     "value": "120px",
+    "filePath": "src/globals/avatar/index.json",
+    "isSource": true,
     "original": {
       "value": "120px"
     },
-    "name": "token-avatar-size-lg",
+    "name": "lds-avatar-size-lg",
     "attributes": {
       "category": "avatar",
       "type": "size",
@@ -115,10 +127,12 @@
   },
   {
     "value": "150px",
+    "filePath": "src/globals/avatar/index.json",
+    "isSource": true,
     "original": {
       "value": "150px"
     },
-    "name": "token-avatar-size-xlg",
+    "name": "lds-avatar-size-xlg",
     "attributes": {
       "category": "avatar",
       "type": "size",
@@ -132,10 +146,12 @@
   },
   {
     "value": "50%",
+    "filePath": "src/globals/avatar/index.json",
+    "isSource": true,
     "original": {
       "value": "50%"
     },
-    "name": "token-avatar-border-radius-circle",
+    "name": "lds-avatar-border-radius-circle",
     "attributes": {
       "category": "avatar",
       "type": "border_radius",
@@ -149,10 +165,12 @@
   },
   {
     "value": "12%",
+    "filePath": "src/globals/avatar/index.json",
+    "isSource": true,
     "original": {
       "value": "12%"
     },
-    "name": "token-avatar-border-radius-squared",
+    "name": "lds-avatar-border-radius-squared",
     "attributes": {
       "category": "avatar",
       "type": "border_radius",
@@ -166,10 +184,12 @@
   },
   {
     "value": "#949494",
+    "filePath": "src/globals/avatar/index.json",
+    "isSource": true,
     "original": {
       "value": "{color.gray_40.value}"
     },
-    "name": "token-avatar-monogram-color-default",
+    "name": "lds-avatar-monogram-color-default",
     "attributes": {
       "category": "avatar",
       "type": "monogram",
@@ -183,10 +203,12 @@
   },
   {
     "value": "#ff4000",
+    "filePath": "src/globals/avatar/index.json",
+    "isSource": true,
     "original": {
       "value": "#ff4000"
     },
-    "name": "token-avatar-monogram-color-variant-1",
+    "name": "lds-avatar-monogram-color-variant-1",
     "attributes": {
       "category": "avatar",
       "type": "monogram",
@@ -200,10 +222,12 @@
   },
   {
     "value": "#ff4278",
+    "filePath": "src/globals/avatar/index.json",
+    "isSource": true,
     "original": {
       "value": "#ff4278"
     },
-    "name": "token-avatar-monogram-color-variant-2",
+    "name": "lds-avatar-monogram-color-variant-2",
     "attributes": {
       "category": "avatar",
       "type": "monogram",
@@ -217,10 +241,12 @@
   },
   {
     "value": "#ff8201",
+    "filePath": "src/globals/avatar/index.json",
+    "isSource": true,
     "original": {
       "value": "#ff8201"
     },
-    "name": "token-avatar-monogram-color-variant-3",
+    "name": "lds-avatar-monogram-color-variant-3",
     "attributes": {
       "category": "avatar",
       "type": "monogram",
@@ -234,10 +260,12 @@
   },
   {
     "value": "#ffc831",
+    "filePath": "src/globals/avatar/index.json",
+    "isSource": true,
     "original": {
       "value": "#ffc831"
     },
-    "name": "token-avatar-monogram-color-variant-4",
+    "name": "lds-avatar-monogram-color-variant-4",
     "attributes": {
       "category": "avatar",
       "type": "monogram",
@@ -251,10 +279,12 @@
   },
   {
     "value": "#00caa8",
+    "filePath": "src/globals/avatar/index.json",
+    "isSource": true,
     "original": {
       "value": "#00caa8"
     },
-    "name": "token-avatar-monogram-color-variant-5",
+    "name": "lds-avatar-monogram-color-variant-5",
     "attributes": {
       "category": "avatar",
       "type": "monogram",
@@ -268,10 +298,12 @@
   },
   {
     "value": "#17d417",
+    "filePath": "src/globals/avatar/index.json",
+    "isSource": true,
     "original": {
       "value": "#17d417"
     },
-    "name": "token-avatar-monogram-color-variant-6",
+    "name": "lds-avatar-monogram-color-variant-6",
     "attributes": {
       "category": "avatar",
       "type": "monogram",
@@ -285,10 +317,12 @@
   },
   {
     "value": "#b500e3",
+    "filePath": "src/globals/avatar/index.json",
+    "isSource": true,
     "original": {
       "value": "#b500e3"
     },
-    "name": "token-avatar-monogram-color-variant-7",
+    "name": "lds-avatar-monogram-color-variant-7",
     "attributes": {
       "category": "avatar",
       "type": "monogram",
@@ -302,10 +336,12 @@
   },
   {
     "value": "#1ab0ff",
+    "filePath": "src/globals/avatar/index.json",
+    "isSource": true,
     "original": {
       "value": "#1ab0ff"
     },
-    "name": "token-avatar-monogram-color-variant-8",
+    "name": "lds-avatar-monogram-color-variant-8",
     "attributes": {
       "category": "avatar",
       "type": "monogram",
@@ -319,10 +355,12 @@
   },
   {
     "value": "#2b8cfc",
+    "filePath": "src/globals/avatar/index.json",
+    "isSource": true,
     "original": {
       "value": "#2b8cfc"
     },
-    "name": "token-avatar-monogram-color-variant-9",
+    "name": "lds-avatar-monogram-color-variant-9",
     "attributes": {
       "category": "avatar",
       "type": "monogram",
@@ -336,10 +374,12 @@
   },
   {
     "value": "10px",
+    "filePath": "src/globals/base/index.json",
+    "isSource": true,
     "original": {
       "value": "10px"
     },
-    "name": "token-base-border-radius",
+    "name": "lds-base-border-radius",
     "attributes": {
       "category": "base",
       "type": "border",
@@ -353,10 +393,12 @@
   },
   {
     "value": "10px",
+    "filePath": "src/globals/button/index.json",
+    "isSource": true,
     "original": {
       "value": "{base.border.radius.value}"
     },
-    "name": "token-button-border-radius",
+    "name": "lds-button-border-radius",
     "attributes": {
       "category": "button",
       "type": "border",
@@ -370,10 +412,12 @@
   },
   {
     "value": "1px",
+    "filePath": "src/globals/button/index.json",
+    "isSource": true,
     "original": {
       "value": "1px"
     },
-    "name": "token-button-border-width",
+    "name": "lds-button-border-width",
     "attributes": {
       "category": "button",
       "type": "border",
@@ -387,10 +431,12 @@
   },
   {
     "value": "44px",
+    "filePath": "src/platforms/web/button.json",
+    "isSource": true,
     "original": {
       "value": "44px"
     },
-    "name": "token-button-height",
+    "name": "lds-button-height",
     "attributes": {
       "category": "button",
       "type": "height"
@@ -402,10 +448,12 @@
   },
   {
     "value": "40px",
+    "filePath": "src/platforms/web/button.json",
+    "isSource": true,
     "original": {
       "value": "40px"
     },
-    "name": "token-button-height-small",
+    "name": "lds-button-height-small",
     "attributes": {
       "category": "button",
       "type": "height_small"
@@ -418,11 +466,13 @@
   {
     "value": "#3B5998",
     "type": "color",
+    "filePath": "src/globals/color/color-basic.json",
+    "isSource": true,
     "original": {
       "value": "{alias.color.brand.primary.value}",
       "type": "color"
     },
-    "name": "token-color-primary",
+    "name": "lds-color-primary",
     "attributes": {
       "category": "color",
       "type": "primary"
@@ -435,11 +485,13 @@
   {
     "value": "#4267B2",
     "type": "color",
+    "filePath": "src/globals/color/color-basic.json",
+    "isSource": true,
     "original": {
       "value": "{alias.color.brand.secondary.value}",
       "type": "color"
     },
-    "name": "token-color-secondary",
+    "name": "lds-color-secondary",
     "attributes": {
       "category": "color",
       "type": "secondary"
@@ -453,12 +505,14 @@
     "value": "#4a8c70",
     "type": "color",
     "comment": "look how this comment will appear in the generated files",
+    "filePath": "src/globals/color/color-basic.json",
+    "isSource": true,
     "original": {
       "value": "#4A8C70",
       "type": "color",
       "comment": "look how this comment will appear in the generated files"
     },
-    "name": "token-color-green",
+    "name": "lds-color-green",
     "attributes": {
       "category": "color",
       "type": "green"
@@ -471,11 +525,13 @@
   {
     "value": "#14213d",
     "type": "color",
+    "filePath": "src/globals/color/color-basic.json",
+    "isSource": true,
     "original": {
       "value": "#14213D",
       "type": "color"
     },
-    "name": "token-color-blue",
+    "name": "lds-color-blue",
     "attributes": {
       "category": "color",
       "type": "blue"
@@ -488,11 +544,13 @@
   {
     "value": "#fca311",
     "type": "color",
+    "filePath": "src/globals/color/color-basic.json",
+    "isSource": true,
     "original": {
       "value": "#FCA311",
       "type": "color"
     },
-    "name": "token-color-yellow",
+    "name": "lds-color-yellow",
     "attributes": {
       "category": "color",
       "type": "yellow"
@@ -505,11 +563,13 @@
   {
     "value": "#bf0603",
     "type": "color",
+    "filePath": "src/globals/color/color-basic.json",
+    "isSource": true,
     "original": {
       "value": "#BF0603",
       "type": "color"
     },
-    "name": "token-color-red",
+    "name": "lds-color-red",
     "attributes": {
       "category": "color",
       "type": "red"
@@ -522,11 +582,13 @@
   {
     "value": "#4a8c70",
     "type": "color",
+    "filePath": "src/globals/color/color-features.json",
+    "isSource": true,
     "original": {
       "value": "{color.green.value}",
       "type": "color"
     },
-    "name": "token-color-feature-chat",
+    "name": "lds-color-feature-chat",
     "attributes": {
       "category": "color",
       "type": "feature",
@@ -541,11 +603,13 @@
   {
     "value": "#14213d",
     "type": "color",
+    "filePath": "src/globals/color/color-features.json",
+    "isSource": true,
     "original": {
       "value": "{color.blue.value}",
       "type": "color"
     },
-    "name": "token-color-feature-blog",
+    "name": "lds-color-feature-blog",
     "attributes": {
       "category": "color",
       "type": "feature",
@@ -560,11 +624,13 @@
   {
     "value": "#fca311",
     "type": "color",
+    "filePath": "src/globals/color/color-features.json",
+    "isSource": true,
     "original": {
       "value": "{color.yellow.value}",
       "type": "color"
     },
-    "name": "token-color-feature-shop",
+    "name": "lds-color-feature-shop",
     "attributes": {
       "category": "color",
       "type": "feature",
@@ -579,11 +645,13 @@
   {
     "value": "#bf0603",
     "type": "color",
+    "filePath": "src/globals/color/color-features.json",
+    "isSource": true,
     "original": {
       "value": "{color.red.value}",
       "type": "color"
     },
-    "name": "token-color-feature-settings",
+    "name": "lds-color-feature-settings",
     "attributes": {
       "category": "color",
       "type": "feature",
@@ -598,11 +666,13 @@
   {
     "value": "#000000",
     "type": "color",
+    "filePath": "src/globals/color/color-grayscale.json",
+    "isSource": true,
     "original": {
       "value": "#000",
       "type": "color"
     },
-    "name": "token-color-black",
+    "name": "lds-color-black",
     "attributes": {
       "category": "color",
       "type": "black"
@@ -615,11 +685,13 @@
   {
     "value": "#6a6a6a",
     "type": "color",
+    "filePath": "src/globals/color/color-grayscale.json",
+    "isSource": true,
     "original": {
       "value": "#6a6a6a",
       "type": "color"
     },
-    "name": "token-color-gray-60",
+    "name": "lds-color-gray-60",
     "attributes": {
       "category": "color",
       "type": "gray_60"
@@ -632,11 +704,13 @@
   {
     "value": "#949494",
     "type": "color",
+    "filePath": "src/globals/color/color-grayscale.json",
+    "isSource": true,
     "original": {
       "value": "#949494",
       "type": "color"
     },
-    "name": "token-color-gray-40",
+    "name": "lds-color-gray-40",
     "attributes": {
       "category": "color",
       "type": "gray_40"
@@ -649,11 +723,13 @@
   {
     "value": "#c4c4c4",
     "type": "color",
+    "filePath": "src/globals/color/color-grayscale.json",
+    "isSource": true,
     "original": {
       "value": "#c4c4c4",
       "type": "color"
     },
-    "name": "token-color-gray-24",
+    "name": "lds-color-gray-24",
     "attributes": {
       "category": "color",
       "type": "gray_24"
@@ -666,11 +742,13 @@
   {
     "value": "#e0e0e0",
     "type": "color",
+    "filePath": "src/globals/color/color-grayscale.json",
+    "isSource": true,
     "original": {
       "value": "#e0e0e0",
       "type": "color"
     },
-    "name": "token-color-gray-12",
+    "name": "lds-color-gray-12",
     "attributes": {
       "category": "color",
       "type": "gray_12"
@@ -683,11 +761,13 @@
   {
     "value": "#f6f6f6",
     "type": "color",
+    "filePath": "src/globals/color/color-grayscale.json",
+    "isSource": true,
     "original": {
       "value": "#f6f6f6",
       "type": "color"
     },
-    "name": "token-color-gray-3",
+    "name": "lds-color-gray-3",
     "attributes": {
       "category": "color",
       "type": "gray_3"
@@ -700,11 +780,13 @@
   {
     "value": "#3B5998",
     "type": "color",
+    "filePath": "src/globals/color/color-others.json",
+    "isSource": true,
     "original": {
       "value": "{color.primary.value}",
       "type": "color"
     },
-    "name": "token-color-action-primary",
+    "name": "lds-color-action-primary",
     "attributes": {
       "category": "color",
       "type": "action_primary"
@@ -717,11 +799,13 @@
   {
     "value": "#bf0603",
     "type": "color",
+    "filePath": "src/globals/color/color-others.json",
+    "isSource": true,
     "original": {
       "value": "{color.red.value}",
       "type": "color"
     },
-    "name": "token-color-action-destructive",
+    "name": "lds-color-action-destructive",
     "attributes": {
       "category": "color",
       "type": "action_destructive"
@@ -734,11 +818,13 @@
   {
     "value": "#e0e0e0",
     "type": "color",
+    "filePath": "src/globals/color/color-others.json",
+    "isSource": true,
     "original": {
       "value": "{color.gray_12.value}",
       "type": "color"
     },
-    "name": "token-color-border",
+    "name": "lds-color-border",
     "attributes": {
       "category": "color",
       "type": "border"
@@ -751,11 +837,13 @@
   {
     "value": "#4a8c70",
     "type": "color",
+    "filePath": "src/globals/color/color-others.json",
+    "isSource": true,
     "original": {
       "value": "{color.green.value}",
       "type": "color"
     },
-    "name": "token-color-user-authenticated",
+    "name": "lds-color-user-authenticated",
     "attributes": {
       "category": "color",
       "type": "user",
@@ -770,11 +858,13 @@
   {
     "value": "#949494",
     "type": "color",
+    "filePath": "src/globals/color/color-others.json",
+    "isSource": true,
     "original": {
       "value": "{color.gray_40.value}",
       "type": "color"
     },
-    "name": "token-color-user-anonymous",
+    "name": "lds-color-user-anonymous",
     "attributes": {
       "category": "color",
       "type": "user",
@@ -789,11 +879,13 @@
   {
     "value": "#4867aa",
     "type": "color",
+    "filePath": "src/globals/color/color-socials.json",
+    "isSource": true,
     "original": {
       "value": "#4867aa",
       "type": "color"
     },
-    "name": "token-color-social-facebook",
+    "name": "lds-color-social-facebook",
     "attributes": {
       "category": "color",
       "type": "social",
@@ -808,11 +900,13 @@
   {
     "value": "#1ab0ff",
     "type": "color",
+    "filePath": "src/globals/color/color-socials.json",
+    "isSource": true,
     "original": {
       "value": "#1ab0ff",
       "type": "color"
     },
-    "name": "token-color-social-twitter",
+    "name": "lds-color-social-twitter",
     "attributes": {
       "category": "color",
       "type": "social",
@@ -827,11 +921,13 @@
   {
     "value": "#507299",
     "type": "color",
+    "filePath": "src/globals/color/color-socials.json",
+    "isSource": true,
     "original": {
       "value": "#507299",
       "type": "color"
     },
-    "name": "token-color-social-vkontakte",
+    "name": "lds-color-social-vkontakte",
     "attributes": {
       "category": "color",
       "type": "social",
@@ -846,11 +942,13 @@
   {
     "value": "#ff8201",
     "type": "color",
+    "filePath": "src/globals/color/color-socials.json",
+    "isSource": true,
     "original": {
       "value": "#ff8201",
       "type": "color"
     },
-    "name": "token-color-social-odnoklassniki",
+    "name": "lds-color-social-odnoklassniki",
     "attributes": {
       "category": "color",
       "type": "social",
@@ -865,11 +963,13 @@
   {
     "value": "#dc4a3d",
     "type": "color",
+    "filePath": "src/globals/color/color-socials.json",
+    "isSource": true,
     "original": {
       "value": "#dc4a3d",
       "type": "color"
     },
-    "name": "token-color-social-google",
+    "name": "lds-color-social-google",
     "attributes": {
       "category": "color",
       "type": "social",
@@ -884,11 +984,13 @@
   {
     "value": "#d93175",
     "type": "color",
+    "filePath": "src/globals/color/color-socials.json",
+    "isSource": true,
     "original": {
       "value": "#d93175",
       "type": "color"
     },
-    "name": "token-color-social-instagram",
+    "name": "lds-color-social-instagram",
     "attributes": {
       "category": "color",
       "type": "social",
@@ -903,11 +1005,13 @@
   {
     "value": "#0076b7",
     "type": "color",
+    "filePath": "src/globals/color/color-socials.json",
+    "isSource": true,
     "original": {
       "value": "#0076b7",
       "type": "color"
     },
-    "name": "token-color-social-linkedin",
+    "name": "lds-color-social-linkedin",
     "attributes": {
       "category": "color",
       "type": "social",
@@ -924,13 +1028,15 @@
     "documentation": {
       "comment": "Notice: this value should actually be 12px but we have to double check with the designers what is the impact of this change"
     },
+    "filePath": "src/globals/icon/index.json",
+    "isSource": true,
     "original": {
       "value": "10px",
       "documentation": {
         "comment": "Notice: this value should actually be 12px but we have to double check with the designers what is the impact of this change"
       }
     },
-    "name": "token-icon-size-xsm",
+    "name": "lds-icon-size-xsm",
     "attributes": {
       "category": "icon",
       "type": "size",
@@ -944,10 +1050,12 @@
   },
   {
     "value": "16px",
+    "filePath": "src/globals/icon/index.json",
+    "isSource": true,
     "original": {
       "value": "16px"
     },
-    "name": "token-icon-size-sm",
+    "name": "lds-icon-size-sm",
     "attributes": {
       "category": "icon",
       "type": "size",
@@ -961,10 +1069,12 @@
   },
   {
     "value": "22px",
+    "filePath": "src/globals/icon/index.json",
+    "isSource": true,
     "original": {
       "value": "22px"
     },
-    "name": "token-icon-size-md",
+    "name": "lds-icon-size-md",
     "attributes": {
       "category": "icon",
       "type": "size",
@@ -978,10 +1088,12 @@
   },
   {
     "value": "30px",
+    "filePath": "src/globals/icon/index.json",
+    "isSource": true,
     "original": {
       "value": "30px"
     },
-    "name": "token-icon-size-lg",
+    "name": "lds-icon-size-lg",
     "attributes": {
       "category": "icon",
       "type": "size",
@@ -995,10 +1107,12 @@
   },
   {
     "value": "36px",
+    "filePath": "src/globals/icon/index.json",
+    "isSource": true,
     "original": {
       "value": "36px"
     },
-    "name": "token-icon-size-xlg",
+    "name": "lds-icon-size-xlg",
     "attributes": {
       "category": "icon",
       "type": "size",
@@ -1012,10 +1126,12 @@
   },
   {
     "value": "46px",
+    "filePath": "src/globals/icon/index.json",
+    "isSource": true,
     "original": {
       "value": "46px"
     },
-    "name": "token-icon-size-xxlg",
+    "name": "lds-icon-size-xxlg",
     "attributes": {
       "category": "icon",
       "type": "size",
@@ -1029,10 +1145,12 @@
   },
   {
     "value": "90px",
+    "filePath": "src/globals/icon/index.json",
+    "isSource": true,
     "original": {
       "value": "{avatar.size.md.value}"
     },
-    "name": "token-icon-jumbo-size-md",
+    "name": "lds-icon-jumbo-size-md",
     "attributes": {
       "category": "icon",
       "type": "jumbo-size",
@@ -1046,10 +1164,12 @@
   },
   {
     "value": "120px",
+    "filePath": "src/globals/icon/index.json",
+    "isSource": true,
     "original": {
       "value": "{avatar.size.lg.value}"
     },
-    "name": "token-icon-jumbo-size-lg",
+    "name": "lds-icon-jumbo-size-lg",
     "attributes": {
       "category": "icon",
       "type": "jumbo-size",
@@ -1063,10 +1183,12 @@
   },
   {
     "value": "#949494",
+    "filePath": "src/globals/input/index.json",
+    "isSource": true,
     "original": {
       "value": "{color.gray_40.value}"
     },
-    "name": "token-input-placeholder",
+    "name": "lds-input-placeholder",
     "attributes": {
       "category": "input",
       "type": "placeholder"
@@ -1078,10 +1200,12 @@
   },
   {
     "value": "24px",
+    "filePath": "src/globals/input/index.json",
+    "isSource": true,
     "original": {
       "value": "24px"
     },
-    "name": "token-input-choice-size",
+    "name": "lds-input-choice-size",
     "attributes": {
       "category": "input",
       "type": "choice",
@@ -1095,10 +1219,12 @@
   },
   {
     "value": "40px",
+    "filePath": "src/globals/input/index.json",
+    "isSource": true,
     "original": {
       "value": "40px"
     },
-    "name": "token-input-toggle-width",
+    "name": "lds-input-toggle-width",
     "attributes": {
       "category": "input",
       "type": "toggle",
@@ -1112,10 +1238,12 @@
   },
   {
     "value": "24px",
+    "filePath": "src/globals/input/index.json",
+    "isSource": true,
     "original": {
       "value": "24px"
     },
-    "name": "token-input-toggle-height",
+    "name": "lds-input-toggle-height",
     "attributes": {
       "category": "input",
       "type": "toggle",
@@ -1129,10 +1257,12 @@
   },
   {
     "value": "32px",
+    "filePath": "src/globals/input/index.json",
+    "isSource": true,
     "original": {
       "value": "32px"
     },
-    "name": "token-input-search-height",
+    "name": "lds-input-search-height",
     "attributes": {
       "category": "input",
       "type": "search",
@@ -1146,10 +1276,12 @@
   },
   {
     "value": "44px",
+    "filePath": "src/platforms/web/input.json",
+    "isSource": true,
     "original": {
       "value": "44px"
     },
-    "name": "token-input-toolbar-height",
+    "name": "lds-input-toolbar-height",
     "attributes": {
       "category": "input",
       "type": "toolbar",
@@ -1163,10 +1295,12 @@
   },
   {
     "value": "0px",
+    "filePath": "src/platforms/web/input.json",
+    "isSource": true,
     "original": {
       "value": "0px"
     },
-    "name": "token-input-toolbar-item-gap",
+    "name": "lds-input-toolbar-item-gap",
     "attributes": {
       "category": "input",
       "type": "toolbar",
@@ -1180,10 +1314,12 @@
   },
   {
     "value": "32px",
+    "filePath": "src/platforms/web/input.json",
+    "isSource": true,
     "original": {
       "value": "32px"
     },
-    "name": "token-input-toolbar-send-icon-size",
+    "name": "lds-input-toolbar-send-icon-size",
     "attributes": {
       "category": "input",
       "type": "toolbar",
@@ -1197,10 +1333,12 @@
   },
   {
     "value": "40px",
+    "filePath": "src/platforms/web/input.json",
+    "isSource": true,
     "original": {
       "value": "40px"
     },
-    "name": "token-input-switcher-item-size",
+    "name": "lds-input-switcher-item-size",
     "attributes": {
       "category": "input",
       "type": "switcher",
@@ -1214,10 +1352,12 @@
   },
   {
     "value": "24px",
+    "filePath": "src/platforms/web/input.json",
+    "isSource": true,
     "original": {
       "value": "24px"
     },
-    "name": "token-input-switcher-icon-size",
+    "name": "lds-input-switcher-icon-size",
     "attributes": {
       "category": "input",
       "type": "switcher",
@@ -1231,10 +1371,12 @@
   },
   {
     "value": "36px",
+    "filePath": "src/platforms/web/input.json",
+    "isSource": true,
     "original": {
       "value": "36px"
     },
-    "name": "token-input-mini-height",
+    "name": "lds-input-mini-height",
     "attributes": {
       "category": "input",
       "type": "mini",
@@ -1248,10 +1390,12 @@
   },
   {
     "value": "32px",
+    "filePath": "src/platforms/web/input.json",
+    "isSource": true,
     "original": {
       "value": "32px"
     },
-    "name": "token-input-mini-send-icon-size",
+    "name": "lds-input-mini-send-icon-size",
     "attributes": {
       "category": "input",
       "type": "mini",
@@ -1265,10 +1409,12 @@
   },
   {
     "value": "65px",
+    "filePath": "src/globals/login/index.json",
+    "isSource": true,
     "original": {
       "value": "65px"
     },
-    "name": "token-login-size-md",
+    "name": "lds-login-size-md",
     "attributes": {
       "category": "login",
       "type": "size",
@@ -1282,10 +1428,12 @@
   },
   {
     "value": "90px",
+    "filePath": "src/globals/login/index.json",
+    "isSource": true,
     "original": {
       "value": "90px"
     },
-    "name": "token-login-size-lg",
+    "name": "lds-login-size-lg",
     "attributes": {
       "category": "login",
       "type": "size",
@@ -1299,10 +1447,12 @@
   },
   {
     "value": "200px",
+    "filePath": "src/globals/login/index.json",
+    "isSource": true,
     "original": {
       "value": "200px"
     },
-    "name": "token-login-size-xlg",
+    "name": "lds-login-size-xlg",
     "attributes": {
       "category": "login",
       "type": "size",
@@ -1316,10 +1466,12 @@
   },
   {
     "value": "48px",
+    "filePath": "src/platforms/web/login.json",
+    "isSource": true,
     "original": {
       "value": "48px"
     },
-    "name": "token-login-button-height",
+    "name": "lds-login-button-height",
     "attributes": {
       "category": "login",
       "type": "button_height"
@@ -1331,10 +1483,12 @@
   },
   {
     "value": "4px",
+    "filePath": "src/globals/spacing/index.json",
+    "isSource": true,
     "original": {
       "value": "4px"
     },
-    "name": "token-spacing-xsm",
+    "name": "lds-spacing-xsm",
     "attributes": {
       "category": "spacing",
       "type": "xsm"
@@ -1346,10 +1500,12 @@
   },
   {
     "value": "8px",
+    "filePath": "src/globals/spacing/index.json",
+    "isSource": true,
     "original": {
       "value": "8px"
     },
-    "name": "token-spacing-sm",
+    "name": "lds-spacing-sm",
     "attributes": {
       "category": "spacing",
       "type": "sm"
@@ -1361,10 +1517,12 @@
   },
   {
     "value": "12px",
+    "filePath": "src/globals/spacing/index.json",
+    "isSource": true,
     "original": {
       "value": "12px"
     },
-    "name": "token-spacing-md",
+    "name": "lds-spacing-md",
     "attributes": {
       "category": "spacing",
       "type": "md"
@@ -1376,10 +1534,12 @@
   },
   {
     "value": "16px",
+    "filePath": "src/globals/spacing/index.json",
+    "isSource": true,
     "original": {
       "value": "16px"
     },
-    "name": "token-spacing-lg",
+    "name": "lds-spacing-lg",
     "attributes": {
       "category": "spacing",
       "type": "lg"
@@ -1391,10 +1551,12 @@
   },
   {
     "value": "24px",
+    "filePath": "src/globals/spacing/index.json",
+    "isSource": true,
     "original": {
       "value": "24px"
     },
-    "name": "token-spacing-xlg",
+    "name": "lds-spacing-xlg",
     "attributes": {
       "category": "spacing",
       "type": "xlg"
@@ -1406,10 +1568,12 @@
   },
   {
     "value": "32px",
+    "filePath": "src/globals/spacing/index.json",
+    "isSource": true,
     "original": {
       "value": "32px"
     },
-    "name": "token-spacing-xxlg",
+    "name": "lds-spacing-xxlg",
     "attributes": {
       "category": "spacing",
       "type": "xxlg"
@@ -1421,10 +1585,12 @@
   },
   {
     "value": "16px",
+    "filePath": "src/globals/spacing/index.json",
+    "isSource": true,
     "original": {
       "value": "{spacing.lg.value}"
     },
-    "name": "token-spacing-gutter",
+    "name": "lds-spacing-gutter",
     "attributes": {
       "category": "spacing",
       "type": "gutter"
@@ -1437,11 +1603,13 @@
   {
     "value": "22px",
     "category": "typography",
+    "filePath": "src/globals/typography/index.json",
+    "isSource": true,
     "original": {
       "value": "22px",
       "category": "typography"
     },
-    "name": "token-font-size-header-1",
+    "name": "lds-font-size-header-1",
     "attributes": {
       "category": "font_size",
       "type": "header_1"
@@ -1454,11 +1622,13 @@
   {
     "value": "20px",
     "category": "typography",
+    "filePath": "src/globals/typography/index.json",
+    "isSource": true,
     "original": {
       "value": "20px",
       "category": "typography"
     },
-    "name": "token-font-size-header-2",
+    "name": "lds-font-size-header-2",
     "attributes": {
       "category": "font_size",
       "type": "header_2"
@@ -1471,11 +1641,13 @@
   {
     "value": "18px",
     "category": "typography",
+    "filePath": "src/globals/typography/index.json",
+    "isSource": true,
     "original": {
       "value": "18px",
       "category": "typography"
     },
-    "name": "token-font-size-title",
+    "name": "lds-font-size-title",
     "attributes": {
       "category": "font_size",
       "type": "title"
@@ -1488,11 +1660,13 @@
   {
     "value": "16px",
     "category": "typography",
+    "filePath": "src/globals/typography/index.json",
+    "isSource": true,
     "original": {
       "value": "16px",
       "category": "typography"
     },
-    "name": "token-font-size-paragraph-1",
+    "name": "lds-font-size-paragraph-1",
     "attributes": {
       "category": "font_size",
       "type": "paragraph_1"
@@ -1505,11 +1679,13 @@
   {
     "value": "15px",
     "category": "typography",
+    "filePath": "src/globals/typography/index.json",
+    "isSource": true,
     "original": {
       "value": "15px",
       "category": "typography"
     },
-    "name": "token-font-size-paragraph-2",
+    "name": "lds-font-size-paragraph-2",
     "attributes": {
       "category": "font_size",
       "type": "paragraph_2"
@@ -1522,11 +1698,13 @@
   {
     "value": "28px",
     "category": "typography",
+    "filePath": "src/globals/typography/index.json",
+    "isSource": true,
     "original": {
       "value": "28px",
       "category": "typography"
     },
-    "name": "token-line-height-header-1",
+    "name": "lds-line-height-header-1",
     "attributes": {
       "category": "line_height",
       "type": "header_1"
@@ -1539,11 +1717,13 @@
   {
     "value": "25px",
     "category": "typography",
+    "filePath": "src/globals/typography/index.json",
+    "isSource": true,
     "original": {
       "value": "25px",
       "category": "typography"
     },
-    "name": "token-line-height-header-2",
+    "name": "lds-line-height-header-2",
     "attributes": {
       "category": "line_height",
       "type": "header_2"
@@ -1556,11 +1736,13 @@
   {
     "value": "24px",
     "category": "typography",
+    "filePath": "src/globals/typography/index.json",
+    "isSource": true,
     "original": {
       "value": "24px",
       "category": "typography"
     },
-    "name": "token-line-height-title",
+    "name": "lds-line-height-title",
     "attributes": {
       "category": "line_height",
       "type": "title"
@@ -1573,11 +1755,13 @@
   {
     "value": "22px",
     "category": "typography",
+    "filePath": "src/globals/typography/index.json",
+    "isSource": true,
     "original": {
       "value": "22px",
       "category": "typography"
     },
-    "name": "token-line-height-paragraph-1",
+    "name": "lds-line-height-paragraph-1",
     "attributes": {
       "category": "line_height",
       "type": "paragraph_1"
@@ -1590,11 +1774,13 @@
   {
     "value": "20px",
     "category": "typography",
+    "filePath": "src/globals/typography/index.json",
+    "isSource": true,
     "original": {
       "value": "20px",
       "category": "typography"
     },
-    "name": "token-line-height-paragraph-2",
+    "name": "lds-line-height-paragraph-2",
     "attributes": {
       "category": "line_height",
       "type": "paragraph_2"
@@ -1607,11 +1793,13 @@
   {
     "value": "-apple-system, 'San Francisco', 'Helvetica Neue', 'Segoe WP', 'Segoe UI', Roboto, sans-serif",
     "category": "typography",
+    "filePath": "src/platforms/web/typography.json",
+    "isSource": true,
     "original": {
       "value": "-apple-system, 'San Francisco', 'Helvetica Neue', 'Segoe WP', 'Segoe UI', Roboto, sans-serif",
       "category": "typography"
     },
-    "name": "token-font-family-system",
+    "name": "lds-font-family-system",
     "attributes": {
       "category": "font_family",
       "type": "system"
@@ -1624,11 +1812,13 @@
   {
     "value": "'Uni Neue', sans-serif",
     "category": "typography",
+    "filePath": "src/platforms/web/typography.json",
+    "isSource": true,
     "original": {
       "value": "'Uni Neue', sans-serif",
       "category": "typography"
     },
-    "name": "token-font-family-custom",
+    "name": "lds-font-family-custom",
     "attributes": {
       "category": "font_family",
       "type": "custom"
