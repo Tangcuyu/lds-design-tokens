@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Do not edit directly
+  Generated on Wed, 23 Aug 2023 00:41:37 GMT
+-->
+<resources>
+  <color name="ldsColorPrimary">#3B5998</color>
+  <color name="ldsColorSecondary">#4267B2</color>
+  <color name="ldsColorGreen">#4A8C70</color><!-- look how this comment will appear in the generated files -->
+  <color name="ldsColorBlue">#14213D</color>
+  <color name="ldsColorYellow">#FCA311</color>
+  <color name="ldsColorRed">#BF0603</color>
+  <color name="ldsColorFeatureChat">#4A8C70</color>
+  <color name="ldsColorFeatureBlog">#14213D</color>
+  <color name="ldsColorFeatureShop">#FCA311</color>
+  <color name="ldsColorFeatureSettings">#BF0603</color>
+  <color name="ldsColorBlack">#000</color>
+  <color name="ldsColorGray60">#6a6a6a</color>
+  <color name="ldsColorGray40">#949494</color>
+  <color name="ldsColorGray24">#c4c4c4</color>
+  <color name="ldsColorGray12">#e0e0e0</color>
+  <color name="ldsColorGray3">#f6f6f6</color>
+  <color name="ldsColorActionPrimary">#3B5998</color>
+  <color name="ldsColorActionDestructive">#BF0603</color>
+  <color name="ldsColorBorder">#e0e0e0</color>
+  <color name="ldsColorUserAuthenticated">#4A8C70</color>
+  <color name="ldsColorUserAnonymous">#949494</color>
+  <color name="ldsColorSocialFacebook">#4867aa</color>
+  <color name="ldsColorSocialTwitter">#1ab0ff</color>
+  <color name="ldsColorSocialVkontakte">#507299</color>
+  <color name="ldsColorSocialOdnoklassniki">#ff8201</color>
+  <color name="ldsColorSocialGoogle">#dc4a3d</color>
+  <color name="ldsColorSocialInstagram">#d93175</color>
+  <color name="ldsColorSocialLinkedin">#0076b7</color>
+  
+</resources>

@@ -13,6 +13,7 @@ function getStyleDictionaryConfig(brand, platform) {
     source: [
       `src/brands/${brand}/*.json`,
       'src/globals/**/*.json',
+      'src/semantic/**/*.json',
       `src/platforms/${platform}/*.json`,
     ],
     platforms: {
@@ -43,6 +44,13 @@ function getStyleDictionaryConfig(brand, platform) {
               fileHeader: 'myLDSHeader',
             },
           },
+          {
+            format: 'typescript/es6-declarations',
+            destination: 'tokens.d.ts',
+            options: {
+              fileHeader: 'myLDSHeader',
+            },
+          },
         ],
       },
       'web/json': {
@@ -67,6 +75,23 @@ function getStyleDictionaryConfig(brand, platform) {
             options: {
               outputReferences: true,
               fileHeader: 'myLDSHeader',
+              themeable: true,
+            },
+          },
+        ],
+      },
+      'web/bs': {
+        transformGroup: 'scss',
+        buildPath: `dist/bigscreen/${brand}/`,
+        prefix: 'lds',
+        files: [
+          {
+            destination: 'tokens.scss',
+            format: 'scss/variables',
+            options: {
+              outputReferences: true,
+              fileHeader: 'myLDSHeader',
+              themeable: true,
             },
           },
         ],
@@ -264,11 +289,11 @@ StyleDictionaryPackage.registerTransformGroup({
   transforms: ['attribute/cti', 'name/cti/kebab', 'size/px', 'color/css'],
 });
 
-// StyleDictionaryPackage.registerTransformGroup({
-//   name: 'tokens-scss',
-//   // to see the pre-defined "scss" transformation use: console.log(StyleDictionaryPackage.transformGroup['scss']);
-//   transforms: ['name/cti/kebab', 'time/seconds', 'size/px', 'color/css'],
-// });
+StyleDictionaryPackage.registerTransformGroup({
+  name: 'tokens-scss',
+  // to see the pre-defined "scss" transformation use: console.log(StyleDictionaryPackage.transformGroup['scss']);
+  transforms: ['name/cti/kebab', 'time/seconds', 'size/px', 'color/css'],
+});
 
 StyleDictionaryPackage.registerTransformGroup({
   name: 'tokens-ios',
@@ -288,8 +313,8 @@ console.log('Build started...');
 
 // PROCESS THE DESIGN TOKENS FOR THE DIFFEREN BRANDS AND PLATFORMS
 
-['web', 'ios', 'android'].map(function (platform) {
-  ['brand#1', 'brand#2', 'brand#3'].map(function (brand) {
+['web', 'ios', 'android', 'bigscreen'].map(function (platform) {
+  ['emergency', 'financial', 'internet'].map(function (brand) {
     console.log('\n==============================================');
     console.log(`\nProcessing: [${platform}] [${brand}]`);
 
@@ -307,6 +332,8 @@ console.log('Build started...');
       StyleDictionary.buildPlatform('ios');
     } else if (platform === 'android') {
       StyleDictionary.buildPlatform('android');
+    } else if (platform === 'bigscreen') {
+      StyleDictionary.buildPlatform('web/bs');
     }
     StyleDictionary.buildPlatform('styleguide');
 
