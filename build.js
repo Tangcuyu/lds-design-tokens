@@ -322,6 +322,7 @@ console.log('Build started...');
       getStyleDictionaryConfig(brand, platform),
     );
 
+    console.log(StyleDictionary);
     if (platform === 'web') {
       StyleDictionary.buildPlatform('web/js');
       StyleDictionary.buildPlatform('web/json');
