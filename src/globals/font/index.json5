@@ -1,6 +1,6 @@
 {
   'font-face-base': {
-    tokenset: 'base',
+    tokenset: 'custom',
     'sans-serif': {
       value: "'Inter', Helvetica, Arial, sans-serif",
       type: 'fontFamilies',
@@ -15,6 +15,7 @@
     },
   },
   'font-size-display': {
+    tokenset: 'custom',
     xs: {
       value: '14px',
       type: 'fontSizes',
@@ -41,6 +42,7 @@
     },
   },
   'font-size-label': {
+    tokenset: 'custom',
     xs: {
       value: '12px',
       type: 'fontSizes',
@@ -67,6 +69,7 @@
     },
   },
   'font-size-body': {
+    tokenset: 'custom',
     sm: {
       value: '14px',
       type: 'fontSizes',
@@ -81,6 +84,7 @@
     },
   },
   'font-weight-base': {
+    tokenset: 'custom',
     thin: {
       value: 300,
       type: 'fontWeights',

@@ -1,6 +1,6 @@
 {
   spacing: {
-    tokenset: 'base',
+    tokenset: 'custom',
     xsm: {
       value: '4px',
     },

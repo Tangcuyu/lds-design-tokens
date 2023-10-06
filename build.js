@@ -137,6 +137,7 @@ function getStyleDictionaryConfig(brand, platform) {
             format: 'figmaTokensPlugin',
             options: {
               outputReferences: true,
+              fileHeader: 'myLDSHeader',
             },
           },
         ],
@@ -162,11 +163,8 @@ function getStyleDictionaryConfig(brand, platform) {
           },
         ],
       },
-      // there are different possible formats for iOS (JSON, PLIST, etc.) so you will have to agree with the iOS devs which format they prefer
       ios: {
-        // I have used custom formats for iOS but keep in mind that Style Dictionary offers some default formats/templates for iOS,
-        // so have a look at the documentation before creating custom templates/formats, maybe they already work for you :)
-        transformGroup: 'tokens-ios',
+        transformGroup: 'ios',
         buildPath: `dist/ios/${brand}/`,
         prefix: 'lds',
         files: [
@@ -180,9 +178,7 @@ function getStyleDictionaryConfig(brand, platform) {
         ],
       },
       android: {
-        // I have used custom formats for Android but keep in mind that Style Dictionary offers some default formats/templates for Android,
-        // so have a look at the documentation before creating custom templates/formats, maybe they already work for you :)
-        transformGroup: 'tokens-android',
+        transformGroup: 'android',
         buildPath: `dist/android/${brand}/`,
         prefix: 'lds',
         files: [
@@ -200,9 +196,6 @@ function getStyleDictionaryConfig(brand, platform) {
 }
 
 // REGISTER CUSTOM FORMATS + TEMPLATES + TRANSFORMS + TRANSFORM GROUPS
-
-// if you want to see the available pre-defined formats, transforms and transform groups uncomment this
-// console.log(StyleDictionaryPackage);
 
 StyleDictionaryPackage.registerFormat({
   name: 'json/flat',
@@ -256,28 +249,6 @@ StyleDictionaryPackage.registerFileHeader({
 //     }
 // });
 
-StyleDictionaryPackage.registerTransform({
-  name: 'size/pxToPt',
-  type: 'value',
-  matcher: function (prop) {
-    return prop.value.match(/^[\d.]+px$/);
-  },
-  transformer: function (prop) {
-    return prop.value.replace(/px$/, 'pt');
-  },
-});
-
-StyleDictionaryPackage.registerTransform({
-  name: 'size/pxToDp',
-  type: 'value',
-  matcher: function (prop) {
-    return prop.value.match(/^[\d.]+px$/);
-  },
-  transformer: function (prop) {
-    return prop.value.replace(/px$/, 'dp');
-  },
-});
-
 StyleDictionaryPackage.registerTransformGroup({
   name: 'styleguide',
   transforms: ['attribute/cti', 'name/cti/kebab', 'size/px', 'color/css'],
@@ -298,20 +269,6 @@ StyleDictionaryPackage.registerTransformGroup({
   // to see the pre-defined "scss" transformation use: console.log(StyleDictionaryPackage.transformGroup['scss']);
   transforms: ['name/cti/kebab', 'time/seconds', 'size/px', 'color/css'],
 });
-
-StyleDictionaryPackage.registerTransformGroup({
-  name: 'tokens-ios',
-  // to see the pre-defined "ios" transformation use: console.log(StyleDictionaryPackage.transformGroup['ios']);
-  transforms: ['attribute/cti', 'name/cti/camel', 'size/pxToPt'],
-});
-
-StyleDictionaryPackage.registerTransformGroup({
-  name: 'tokens-android',
-  // to see the pre-defined "android" transformation use: console.log(StyleDictionaryPackage.transformGroup['android']);
-  transforms: ['attribute/cti', 'name/cti/camel', 'size/pxToDp'],
-});
-
-StyleDictionaryPackage.transformGroup['android'];
 
 console.log('Build started...');
 

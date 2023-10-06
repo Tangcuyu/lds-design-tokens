@@ -6,7 +6,7 @@
  * 
  * 版本号：0.0.1
  * Do not edit directly
- * Generated on Fri, 06 Oct 2023 07:10:51 GMT
+ * Generated on Fri, 06 Oct 2023 07:56:40 GMT
  * Build hash 99914b932bd37a50b983c5e7c90ae93b
  */
 
@@ -172,7 +172,7 @@ module.exports = {
         "100"
       ]
     },
-    "tokenset": "base"
+    "tokenset": "custom"
   },
   "color-base-dark-blue": {
     "10": {
@@ -337,7 +337,7 @@ module.exports = {
         "100"
       ]
     },
-    "tokenset": "base"
+    "tokenset": "custom"
   },
   "color-base-blue": {
     "10": {
@@ -500,7 +500,7 @@ module.exports = {
         "100"
       ]
     },
-    "tokenset": "base"
+    "tokenset": "custom"
   },
   "color-base-red": {
     "10": {
@@ -663,7 +663,7 @@ module.exports = {
         "100"
       ]
     },
-    "tokenset": "base"
+    "tokenset": "custom"
   },
   "color-base-green": {
     "10": {
@@ -826,7 +826,7 @@ module.exports = {
         "100"
       ]
     },
-    "tokenset": "base"
+    "tokenset": "custom"
   },
   "color-base-navy": {
     "10": {
@@ -991,7 +991,7 @@ module.exports = {
         "100"
       ]
     },
-    "tokenset": "base"
+    "tokenset": "custom"
   },
   "color-base-pink": {
     "10": {
@@ -1154,10 +1154,10 @@ module.exports = {
         "100"
       ]
     },
-    "tokenset": "base"
+    "tokenset": "custom"
   },
   "font-face-base": {
-    "tokenset": "base",
+    "tokenset": "custom",
     "sans-serif": {
       "value": "'Inter', Helvetica, Arial, sans-serif",
       "type": "fontFamilies",
@@ -1208,6 +1208,7 @@ module.exports = {
     }
   },
   "font-size-display": {
+    "tokenset": "custom",
     "xs": {
       "value": "14px",
       "type": "fontSizes",
@@ -1306,6 +1307,7 @@ module.exports = {
     }
   },
   "font-size-label": {
+    "tokenset": "custom",
     "xs": {
       "value": "12px",
       "type": "fontSizes",
@@ -1404,6 +1406,7 @@ module.exports = {
     }
   },
   "font-size-body": {
+    "tokenset": "custom",
     "sm": {
       "value": "14px",
       "type": "fontSizes",
@@ -1454,6 +1457,7 @@ module.exports = {
     }
   },
   "font-weight-base": {
+    "tokenset": "custom",
     "thin": {
       "value": 300,
       "type": "fontWeights",
@@ -1520,7 +1524,7 @@ module.exports = {
     }
   },
   "spacing": {
-    "tokenset": "base",
+    "tokenset": "custom",
     "xsm": {
       "value": "4px",
       "filePath": "src/globals/spacing/index.json5",
@@ -1621,7 +1625,7 @@ module.exports = {
     }
   },
   "font_size": {
-    "tokenset": "base",
+    "tokenset": "custom",
     "header_1": {
       "value": "22px",
       "category": "typography",
@@ -1704,7 +1708,7 @@ module.exports = {
     }
   },
   "line_height": {
-    "tokenset": "base",
+    "tokenset": "custom",
     "header_1": {
       "value": "28px",
       "category": "typography",
