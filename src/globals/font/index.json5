@@ -1,0 +1,101 @@
+{
+  tokenset: 'base',
+  'font-face-base': {
+    'sans-serif': {
+      value: "'Inter', Helvetica, Arial, sans-serif",
+      type: 'fontFamilies',
+    },
+    serif: {
+      value: 'Baskerville',
+      type: 'fontFamilies',
+    },
+    mono: {
+      value: "'Consolas', Courier, monospace",
+      type: 'fontFamilies',
+    },
+  },
+  'font-size-display': {
+    xs: {
+      value: '14px',
+      type: 'fontSizes',
+    },
+    sm: {
+      value: '16px',
+      type: 'fontSizes',
+    },
+    md: {
+      value: '18px',
+      type: 'fontSizes',
+    },
+    lg: {
+      value: '24px',
+      type: 'fontSizes',
+    },
+    xl: {
+      value: '32px',
+      type: 'fontSizes',
+    },
+    xxl: {
+      value: '48px',
+      type: 'fontSizes',
+    },
+  },
+  'font-size-label': {
+    xs: {
+      value: '12px',
+      type: 'fontSizes',
+    },
+    sm: {
+      value: '13px',
+      type: 'fontSizes',
+    },
+    md: {
+      value: '14px',
+      type: 'fontSizes',
+    },
+    lg: {
+      value: '16px',
+      type: 'fontSizes',
+    },
+    xl: {
+      value: '17px',
+      type: 'fontSizes',
+    },
+    xxl: {
+      value: '18px',
+      type: 'fontSizes',
+    },
+  },
+  'font-size-body': {
+    sm: {
+      value: '14px',
+      type: 'fontSizes',
+    },
+    md: {
+      value: '16px',
+      type: 'fontSizes',
+    },
+    lg: {
+      value: '18px',
+      type: 'fontSizes',
+    },
+  },
+  'font-weight-base': {
+    thin: {
+      value: 300,
+      type: 'fontWeights',
+    },
+    regular: {
+      value: 400,
+      type: 'fontWeights',
+    },
+    medium: {
+      value: 500,
+      type: 'fontWeights',
+    },
+    bold: {
+      value: 600,
+      type: 'fontWeights',
+    },
+  },
+}

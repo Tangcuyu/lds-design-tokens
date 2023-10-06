@@ -1,5 +1,5 @@
 {
-  "name": "lds-design-tokens",
+  "name": "@itsi/lds-design-tokens",
   "version": "0.0.1",
   "description": "Implementation of LDS Design Tokens using Style Dictionary",
   "main": "build.js",
@@ -16,6 +16,10 @@
     "style-dictionary": "^3.0.0"
   },
   "dependencies": {
+    "@divriots/style-dictionary-to-figma": "^0.4.0",
     "@itsi/cli": "^1.0.8"
+  },
+  "publishConfig": {
+    "registry": "http://localhost:4873"
   }
 }

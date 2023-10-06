@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@divriots/style-dictionary-to-figma':
+    specifier: ^0.4.0
+    version: 0.4.0
   '@itsi/cli':
     specifier: ^1.0.8
     version: 1.0.8
@@ -28,6 +31,10 @@ packages:
     requiresBuild: true
     dev: false
     optional: true
+
+  /@divriots/style-dictionary-to-figma@0.4.0:
+    resolution: {integrity: sha512-vSC3u1xBi9ShYpGEP+atS+L0vnNnSFmjtvB976+yNUT25nvgpUYCb1ZsSpKBe8+Uk1Qww+4ZIK+/91k3msfs2Q==}
+    dev: false
 
   /@isaacs/cliui@8.0.2:
     resolution: {integrity: sha512-O8jcjabXaleOG9DQ0+ARXWZBTfnP4WNAqzuiJK7ll44AmxGKv/J2M4TPjxjY3znBCfvBXFzucm1twdyFybFqEA==}

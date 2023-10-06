@@ -1,6 +1,7 @@
 const StyleDictionaryPackage = require('style-dictionary');
 const version = require('./package.json').version;
 const crypto = require('node:crypto');
+const { transform } = require('@divriots/style-dictionary-to-figma');
 
 const hash = crypto
   .createHash('md5')
@@ -11,10 +12,10 @@ const hash = crypto
 function getStyleDictionaryConfig(brand, platform) {
   return {
     source: [
-      `src/brands/${brand}/*.json`,
-      'src/globals/**/*.json',
-      'src/semantic/**/*.json',
-      `src/platforms/${platform}/*.json`,
+      `src/brands/${brand}/*.json5`,
+      'src/globals/**/*.json5',
+      'src/components/**/*.json5',
+      `src/platforms/${platform}/*.json5`,
     ],
     platforms: {
       'web/js': {
@@ -126,6 +127,20 @@ function getStyleDictionaryConfig(brand, platform) {
           },
         ],
       },
+      figma: {
+        transformGroup: 'js',
+        buildPath: 'dist/figma/',
+        prefix: 'lds',
+        files: [
+          {
+            destination: `design-tokens.json`,
+            format: 'figmaTokensPlugin',
+            options: {
+              outputReferences: true,
+            },
+          },
+        ],
+      },
       styleguide: {
         transformGroup: 'styleguide',
         buildPath: `dist/styleguide/`,
@@ -213,6 +228,15 @@ StyleDictionaryPackage.registerFormat({
   name: 'json/flat',
   formatter: function (dictionary) {
     return JSON.stringify(dictionary.allProperties, null, 2);
+  },
+});
+
+// 注册用于转换SD Tokens到Figma Tokens的Formatter
+StyleDictionaryPackage.registerFormat({
+  name: 'figmaTokensPlugin',
+  formatter: ({ dictionary }) => {
+    const transformedTokens = transform(dictionary.tokens);
+    return JSON.stringify(transformedTokens, null, 2);
   },
 });
 
@@ -322,7 +346,6 @@ console.log('Build started...');
       getStyleDictionaryConfig(brand, platform),
     );
 
-    console.log(StyleDictionary);
     if (platform === 'web') {
       StyleDictionary.buildPlatform('web/js');
       StyleDictionary.buildPlatform('web/json');
@@ -330,12 +353,13 @@ console.log('Build started...');
       StyleDictionary.buildPlatform('web/less');
       StyleDictionary.buildPlatform('web/css');
     } else if (platform === 'ios') {
-      StyleDictionary.buildPlatform('ios');
+      // StyleDictionary.buildPlatform('ios');
     } else if (platform === 'android') {
-      StyleDictionary.buildPlatform('android');
+      // StyleDictionary.buildPlatform('android');
     } else if (platform === 'bigscreen') {
       StyleDictionary.buildPlatform('web/bs');
     }
+    StyleDictionary.buildPlatform('figma');
     StyleDictionary.buildPlatform('styleguide');
 
     console.log('\nEnd processing');
