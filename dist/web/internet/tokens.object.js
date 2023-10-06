@@ -6,12 +6,11 @@
  * 
  * 版本号：0.0.1
  * Do not edit directly
- * Generated on Fri, 06 Oct 2023 06:59:11 GMT
+ * Generated on Fri, 06 Oct 2023 07:10:51 GMT
  * Build hash 99914b932bd37a50b983c5e7c90ae93b
  */
 
 var _styleDictionary = {
-  "tokenset": "base",
   "color-base-neutral-dark": {
     "10": {
       "value": "#5c5c5c",
@@ -172,7 +171,8 @@ var _styleDictionary = {
         "color-base-neutral-dark",
         "100"
       ]
-    }
+    },
+    "tokenset": "base"
   },
   "color-base-dark-blue": {
     "10": {
@@ -336,7 +336,8 @@ var _styleDictionary = {
         "color-base-dark-blue",
         "100"
       ]
-    }
+    },
+    "tokenset": "base"
   },
   "color-base-blue": {
     "10": {
@@ -498,7 +499,8 @@ var _styleDictionary = {
         "color-base-blue",
         "100"
       ]
-    }
+    },
+    "tokenset": "base"
   },
   "color-base-red": {
     "10": {
@@ -660,7 +662,8 @@ var _styleDictionary = {
         "color-base-red",
         "100"
       ]
-    }
+    },
+    "tokenset": "base"
   },
   "color-base-green": {
     "10": {
@@ -822,7 +825,8 @@ var _styleDictionary = {
         "color-base-green",
         "100"
       ]
-    }
+    },
+    "tokenset": "base"
   },
   "color-base-navy": {
     "10": {
@@ -986,7 +990,8 @@ var _styleDictionary = {
         "color-base-navy",
         "100"
       ]
-    }
+    },
+    "tokenset": "base"
   },
   "color-base-pink": {
     "10": {
@@ -1148,9 +1153,11 @@ var _styleDictionary = {
         "color-base-pink",
         "100"
       ]
-    }
+    },
+    "tokenset": "base"
   },
   "font-face-base": {
+    "tokenset": "base",
     "sans-serif": {
       "value": "'Inter', Helvetica, Arial, sans-serif",
       "type": "fontFamilies",

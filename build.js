@@ -177,16 +177,6 @@ function getStyleDictionaryConfig(brand, platform) {
               outputReferences: true,
             },
           },
-          {
-            destination: 'tokens-colors.plist',
-            format: 'ios/plist',
-            filter: {
-              type: 'color',
-            },
-            options: {
-              outputReferences: true,
-            },
-          },
         ],
       },
       android: {
@@ -199,16 +189,6 @@ function getStyleDictionaryConfig(brand, platform) {
           {
             destination: 'tokens-all.xml',
             format: 'android/colors',
-            options: {
-              outputReferences: true,
-            },
-          },
-          {
-            destination: 'tokens-colors.xml',
-            format: 'android/colors',
-            filter: {
-              type: 'color',
-            },
             options: {
               outputReferences: true,
             },
@@ -353,12 +333,13 @@ console.log('Build started...');
       StyleDictionary.buildPlatform('web/less');
       StyleDictionary.buildPlatform('web/css');
     } else if (platform === 'ios') {
-      // StyleDictionary.buildPlatform('ios');
+      StyleDictionary.buildPlatform('ios');
     } else if (platform === 'android') {
-      // StyleDictionary.buildPlatform('android');
+      StyleDictionary.buildPlatform('android');
     } else if (platform === 'bigscreen') {
       StyleDictionary.buildPlatform('web/bs');
     }
+
     StyleDictionary.buildPlatform('figma');
     StyleDictionary.buildPlatform('styleguide');
 

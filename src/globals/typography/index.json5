@@ -1,5 +1,4 @@
 {
-  tokenset: 'base',
   font_size: {
     tokenset: 'base',
     header_1: {

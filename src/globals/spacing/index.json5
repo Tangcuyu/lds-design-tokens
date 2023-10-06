@@ -1,5 +1,4 @@
 {
-  tokenset: 'base',
   spacing: {
     tokenset: 'base',
     xsm: {

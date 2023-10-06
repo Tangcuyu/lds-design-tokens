@@ -1,6 +1,6 @@
 {
-  tokenset: 'base',
   'color-base-neutral-dark': {
+    tokenset: 'base',
     '10': {
       value: '#5c5c5c',
       type: 'color',
@@ -43,6 +43,7 @@
     },
   },
   'color-base-dark-blue': {
+    tokenset: 'base',
     '10': {
       value: '#cccfd1',
       type: 'color',
@@ -86,6 +87,7 @@
     },
   },
   'color-base-blue': {
+    tokenset: 'base',
     '10': {
       value: '#c4d0f3',
       type: 'color',
@@ -128,6 +130,7 @@
     },
   },
   'color-base-red': {
+    tokenset: 'base',
     '10': {
       value: '#f1c4c4',
       type: 'color',
@@ -170,6 +173,7 @@
     },
   },
   'color-base-green': {
+    tokenset: 'base',
     '10': {
       value: '#c3e6cb',
       type: 'color',
@@ -212,6 +216,7 @@
     },
   },
   'color-base-navy': {
+    tokenset: 'base',
     '10': {
       value: '#c2d0dc',
       type: 'color',
@@ -255,6 +260,7 @@
     },
   },
   'color-base-pink': {
+    tokenset: 'base',
     '10': {
       value: '#e0c2dd',
       type: 'color',

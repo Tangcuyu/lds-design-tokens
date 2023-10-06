@@ -1,6 +1,6 @@
 {
-  tokenset: 'base',
   'font-face-base': {
+    tokenset: 'base',
     'sans-serif': {
       value: "'Inter', Helvetica, Arial, sans-serif",
       type: 'fontFamilies',
