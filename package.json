@@ -16,8 +16,7 @@
     "style-dictionary": "^3.0.0"
   },
   "dependencies": {
-    "@divriots/style-dictionary-to-figma": "^0.4.0",
-    "@itsi/cli": "^1.0.8"
+    "@divriots/style-dictionary-to-figma": "^0.4.0"
   },
   "publishConfig": {
     "registry": "http://localhost:4873"
