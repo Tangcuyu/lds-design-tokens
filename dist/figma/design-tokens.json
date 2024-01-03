@@ -1687,7 +1687,7 @@
     "spacing": {
       "xsm": {
         "value": "4px",
-        "filePath": "src/globals/spacing/index.json5",
+        "filePath": "src/globals/space/index.json5",
         "isSource": true,
         "original": {
           "value": "4px"
@@ -1703,7 +1703,7 @@
       },
       "sm": {
         "value": "8px",
-        "filePath": "src/globals/spacing/index.json5",
+        "filePath": "src/globals/space/index.json5",
         "isSource": true,
         "original": {
           "value": "8px"
@@ -1719,7 +1719,7 @@
       },
       "md": {
         "value": "12px",
-        "filePath": "src/globals/spacing/index.json5",
+        "filePath": "src/globals/space/index.json5",
         "isSource": true,
         "original": {
           "value": "12px"
@@ -1735,7 +1735,7 @@
       },
       "lg": {
         "value": "16px",
-        "filePath": "src/globals/spacing/index.json5",
+        "filePath": "src/globals/space/index.json5",
         "isSource": true,
         "original": {
           "value": "16px"
@@ -1751,7 +1751,7 @@
       },
       "xlg": {
         "value": "24px",
-        "filePath": "src/globals/spacing/index.json5",
+        "filePath": "src/globals/space/index.json5",
         "isSource": true,
         "original": {
           "value": "24px"
@@ -1767,7 +1767,7 @@
       },
       "xxlg": {
         "value": "32px",
-        "filePath": "src/globals/spacing/index.json5",
+        "filePath": "src/globals/space/index.json5",
         "isSource": true,
         "original": {
           "value": "32px"
@@ -1783,7 +1783,7 @@
       },
       "gutter": {
         "value": "{spacing.lg}",
-        "filePath": "src/globals/spacing/index.json5",
+        "filePath": "src/globals/space/index.json5",
         "isSource": true,
         "original": {
           "value": "{spacing.lg}"
@@ -1795,190 +1795,6 @@
         "path": [
           "spacing",
           "gutter"
-        ]
-      }
-    },
-    "font_size": {
-      "header_1": {
-        "value": "22px",
-        "category": "typography",
-        "filePath": "src/globals/typography/index.json5",
-        "isSource": true,
-        "original": {
-          "value": "22px",
-          "category": "typography"
-        },
-        "attributes": {
-          "category": "font_size",
-          "type": "header_1"
-        },
-        "path": [
-          "font_size",
-          "header_1"
-        ]
-      },
-      "header_2": {
-        "value": "20px",
-        "category": "typography",
-        "filePath": "src/globals/typography/index.json5",
-        "isSource": true,
-        "original": {
-          "value": "20px",
-          "category": "typography"
-        },
-        "attributes": {
-          "category": "font_size",
-          "type": "header_2"
-        },
-        "path": [
-          "font_size",
-          "header_2"
-        ]
-      },
-      "title": {
-        "value": "18px",
-        "category": "typography",
-        "filePath": "src/globals/typography/index.json5",
-        "isSource": true,
-        "original": {
-          "value": "18px",
-          "category": "typography"
-        },
-        "attributes": {
-          "category": "font_size",
-          "type": "title"
-        },
-        "path": [
-          "font_size",
-          "title"
-        ]
-      },
-      "paragraph_1": {
-        "value": "16px",
-        "category": "typography",
-        "filePath": "src/globals/typography/index.json5",
-        "isSource": true,
-        "original": {
-          "value": "16px",
-          "category": "typography"
-        },
-        "attributes": {
-          "category": "font_size",
-          "type": "paragraph_1"
-        },
-        "path": [
-          "font_size",
-          "paragraph_1"
-        ]
-      },
-      "paragraph_2": {
-        "value": "15px",
-        "category": "typography",
-        "filePath": "src/globals/typography/index.json5",
-        "isSource": true,
-        "original": {
-          "value": "15px",
-          "category": "typography"
-        },
-        "attributes": {
-          "category": "font_size",
-          "type": "paragraph_2"
-        },
-        "path": [
-          "font_size",
-          "paragraph_2"
-        ]
-      }
-    },
-    "line_height": {
-      "header_1": {
-        "value": "28px",
-        "category": "typography",
-        "filePath": "src/globals/typography/index.json5",
-        "isSource": true,
-        "original": {
-          "value": "28px",
-          "category": "typography"
-        },
-        "attributes": {
-          "category": "line_height",
-          "type": "header_1"
-        },
-        "path": [
-          "line_height",
-          "header_1"
-        ]
-      },
-      "header_2": {
-        "value": "25px",
-        "category": "typography",
-        "filePath": "src/globals/typography/index.json5",
-        "isSource": true,
-        "original": {
-          "value": "25px",
-          "category": "typography"
-        },
-        "attributes": {
-          "category": "line_height",
-          "type": "header_2"
-        },
-        "path": [
-          "line_height",
-          "header_2"
-        ]
-      },
-      "title": {
-        "value": "24px",
-        "category": "typography",
-        "filePath": "src/globals/typography/index.json5",
-        "isSource": true,
-        "original": {
-          "value": "24px",
-          "category": "typography"
-        },
-        "attributes": {
-          "category": "line_height",
-          "type": "title"
-        },
-        "path": [
-          "line_height",
-          "title"
-        ]
-      },
-      "paragraph_1": {
-        "value": "22px",
-        "category": "typography",
-        "filePath": "src/globals/typography/index.json5",
-        "isSource": true,
-        "original": {
-          "value": "22px",
-          "category": "typography"
-        },
-        "attributes": {
-          "category": "line_height",
-          "type": "paragraph_1"
-        },
-        "path": [
-          "line_height",
-          "paragraph_1"
-        ]
-      },
-      "paragraph_2": {
-        "value": "20px",
-        "category": "typography",
-        "filePath": "src/globals/typography/index.json5",
-        "isSource": true,
-        "original": {
-          "value": "20px",
-          "category": "typography"
-        },
-        "attributes": {
-          "category": "line_height",
-          "type": "paragraph_2"
-        },
-        "path": [
-          "line_height",
-          "paragraph_2"
         ]
       }
     }

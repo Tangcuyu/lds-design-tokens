@@ -6,7 +6,7 @@
  * 
  * 版本号：0.0.1
  * Do not edit directly
- * Generated on Fri, 06 Oct 2023 07:56:40 GMT
+ * Generated on Fri, 06 Oct 2023 14:02:20 GMT
  * Build hash 99914b932bd37a50b983c5e7c90ae93b
  */
 
@@ -109,13 +109,3 @@ export const LDS_SPACING_LG : string;
 export const LDS_SPACING_XLG : string;
 export const LDS_SPACING_XXLG : string;
 export const LDS_SPACING_GUTTER : string;
-export const LDS_FONT_SIZE_HEADER_1 : string;
-export const LDS_FONT_SIZE_HEADER_2 : string;
-export const LDS_FONT_SIZE_TITLE : string;
-export const LDS_FONT_SIZE_PARAGRAPH_1 : string;
-export const LDS_FONT_SIZE_PARAGRAPH_2 : string;
-export const LDS_LINE_HEIGHT_HEADER_1 : string;
-export const LDS_LINE_HEIGHT_HEADER_2 : string;
-export const LDS_LINE_HEIGHT_TITLE : string;
-export const LDS_LINE_HEIGHT_PARAGRAPH_1 : string;
-export const LDS_LINE_HEIGHT_PARAGRAPH_2 : string;

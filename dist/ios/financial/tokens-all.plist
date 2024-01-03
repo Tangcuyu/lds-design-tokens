@@ -3,7 +3,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <!--
   Do not edit directly
-  Generated on Fri, 06 Oct 2023 07:56:41 GMT
+  Generated on Fri, 06 Oct 2023 14:02:20 GMT
 -->
 <plist version="1.0">
   <dict>
@@ -304,36 +304,6 @@
     <key>LdsSpacingGutter</key>
     </dict>
       <string>16px</string>
-    <key>LdsFontSizeHeader1</key>
-    </dict>
-      <string>22px</string>
-    <key>LdsFontSizeHeader2</key>
-    </dict>
-      <string>20px</string>
-    <key>LdsFontSizeTitle</key>
-    </dict>
-      <string>18px</string>
-    <key>LdsFontSizeParagraph1</key>
-    </dict>
-      <string>16px</string>
-    <key>LdsFontSizeParagraph2</key>
-    </dict>
-      <string>15px</string>
-    <key>LdsLineHeightHeader1</key>
-    </dict>
-      <string>28px</string>
-    <key>LdsLineHeightHeader2</key>
-    </dict>
-      <string>25px</string>
-    <key>LdsLineHeightTitle</key>
-    </dict>
-      <string>24px</string>
-    <key>LdsLineHeightParagraph1</key>
-    </dict>
-      <string>22px</string>
-    <key>LdsLineHeightParagraph2</key>
-    </dict>
-      <string>20px</string>
     
   </dict>
 </plist>

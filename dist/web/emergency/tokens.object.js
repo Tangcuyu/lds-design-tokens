@@ -6,7 +6,7 @@
  * 
  * 版本号：0.0.1
  * Do not edit directly
- * Generated on Fri, 06 Oct 2023 07:56:40 GMT
+ * Generated on Fri, 06 Oct 2023 14:02:20 GMT
  * Build hash 99914b932bd37a50b983c5e7c90ae93b
  */
 
@@ -1527,7 +1527,7 @@ var _styleDictionary = {
     "tokenset": "custom",
     "xsm": {
       "value": "4px",
-      "filePath": "src/globals/spacing/index.json5",
+      "filePath": "src/globals/space/index.json5",
       "isSource": true,
       "original": {
         "value": "4px"
@@ -1541,7 +1541,7 @@ var _styleDictionary = {
     },
     "sm": {
       "value": "8px",
-      "filePath": "src/globals/spacing/index.json5",
+      "filePath": "src/globals/space/index.json5",
       "isSource": true,
       "original": {
         "value": "8px"
@@ -1555,7 +1555,7 @@ var _styleDictionary = {
     },
     "md": {
       "value": "12px",
-      "filePath": "src/globals/spacing/index.json5",
+      "filePath": "src/globals/space/index.json5",
       "isSource": true,
       "original": {
         "value": "12px"
@@ -1569,7 +1569,7 @@ var _styleDictionary = {
     },
     "lg": {
       "value": "16px",
-      "filePath": "src/globals/spacing/index.json5",
+      "filePath": "src/globals/space/index.json5",
       "isSource": true,
       "original": {
         "value": "16px"
@@ -1583,7 +1583,7 @@ var _styleDictionary = {
     },
     "xlg": {
       "value": "24px",
-      "filePath": "src/globals/spacing/index.json5",
+      "filePath": "src/globals/space/index.json5",
       "isSource": true,
       "original": {
         "value": "24px"
@@ -1597,7 +1597,7 @@ var _styleDictionary = {
     },
     "xxlg": {
       "value": "32px",
-      "filePath": "src/globals/spacing/index.json5",
+      "filePath": "src/globals/space/index.json5",
       "isSource": true,
       "original": {
         "value": "32px"
@@ -1611,7 +1611,7 @@ var _styleDictionary = {
     },
     "gutter": {
       "value": "16px",
-      "filePath": "src/globals/spacing/index.json5",
+      "filePath": "src/globals/space/index.json5",
       "isSource": true,
       "original": {
         "value": "{spacing.lg.value}"
@@ -1621,172 +1621,6 @@ var _styleDictionary = {
       "path": [
         "spacing",
         "gutter"
-      ]
-    }
-  },
-  "font_size": {
-    "tokenset": "custom",
-    "header_1": {
-      "value": "22px",
-      "category": "typography",
-      "filePath": "src/globals/typography/index.json5",
-      "isSource": true,
-      "original": {
-        "value": "22px",
-        "category": "typography"
-      },
-      "name": "LDS_FONT_SIZE_HEADER_1",
-      "attributes": {},
-      "path": [
-        "font_size",
-        "header_1"
-      ]
-    },
-    "header_2": {
-      "value": "20px",
-      "category": "typography",
-      "filePath": "src/globals/typography/index.json5",
-      "isSource": true,
-      "original": {
-        "value": "20px",
-        "category": "typography"
-      },
-      "name": "LDS_FONT_SIZE_HEADER_2",
-      "attributes": {},
-      "path": [
-        "font_size",
-        "header_2"
-      ]
-    },
-    "title": {
-      "value": "18px",
-      "category": "typography",
-      "filePath": "src/globals/typography/index.json5",
-      "isSource": true,
-      "original": {
-        "value": "18px",
-        "category": "typography"
-      },
-      "name": "LDS_FONT_SIZE_TITLE",
-      "attributes": {},
-      "path": [
-        "font_size",
-        "title"
-      ]
-    },
-    "paragraph_1": {
-      "value": "16px",
-      "category": "typography",
-      "filePath": "src/globals/typography/index.json5",
-      "isSource": true,
-      "original": {
-        "value": "16px",
-        "category": "typography"
-      },
-      "name": "LDS_FONT_SIZE_PARAGRAPH_1",
-      "attributes": {},
-      "path": [
-        "font_size",
-        "paragraph_1"
-      ]
-    },
-    "paragraph_2": {
-      "value": "15px",
-      "category": "typography",
-      "filePath": "src/globals/typography/index.json5",
-      "isSource": true,
-      "original": {
-        "value": "15px",
-        "category": "typography"
-      },
-      "name": "LDS_FONT_SIZE_PARAGRAPH_2",
-      "attributes": {},
-      "path": [
-        "font_size",
-        "paragraph_2"
-      ]
-    }
-  },
-  "line_height": {
-    "tokenset": "custom",
-    "header_1": {
-      "value": "28px",
-      "category": "typography",
-      "filePath": "src/globals/typography/index.json5",
-      "isSource": true,
-      "original": {
-        "value": "28px",
-        "category": "typography"
-      },
-      "name": "LDS_LINE_HEIGHT_HEADER_1",
-      "attributes": {},
-      "path": [
-        "line_height",
-        "header_1"
-      ]
-    },
-    "header_2": {
-      "value": "25px",
-      "category": "typography",
-      "filePath": "src/globals/typography/index.json5",
-      "isSource": true,
-      "original": {
-        "value": "25px",
-        "category": "typography"
-      },
-      "name": "LDS_LINE_HEIGHT_HEADER_2",
-      "attributes": {},
-      "path": [
-        "line_height",
-        "header_2"
-      ]
-    },
-    "title": {
-      "value": "24px",
-      "category": "typography",
-      "filePath": "src/globals/typography/index.json5",
-      "isSource": true,
-      "original": {
-        "value": "24px",
-        "category": "typography"
-      },
-      "name": "LDS_LINE_HEIGHT_TITLE",
-      "attributes": {},
-      "path": [
-        "line_height",
-        "title"
-      ]
-    },
-    "paragraph_1": {
-      "value": "22px",
-      "category": "typography",
-      "filePath": "src/globals/typography/index.json5",
-      "isSource": true,
-      "original": {
-        "value": "22px",
-        "category": "typography"
-      },
-      "name": "LDS_LINE_HEIGHT_PARAGRAPH_1",
-      "attributes": {},
-      "path": [
-        "line_height",
-        "paragraph_1"
-      ]
-    },
-    "paragraph_2": {
-      "value": "20px",
-      "category": "typography",
-      "filePath": "src/globals/typography/index.json5",
-      "isSource": true,
-      "original": {
-        "value": "20px",
-        "category": "typography"
-      },
-      "name": "LDS_LINE_HEIGHT_PARAGRAPH_2",
-      "attributes": {},
-      "path": [
-        "line_height",
-        "paragraph_2"
       ]
     }
   }
