@@ -9,6 +9,27 @@ const hash = crypto
   .digest('hex');
 // HAVE THE STYLE DICTIONARY CONFIG DYNAMICALLY GENERATED
 
+StyleDictionaryPackage.registerFileHeader({
+  name: 'myLDSHeader',
+  fileHeader: (defaultMessage) => {
+    // defaultMessage are the 2 lines above that appear in the default file header
+    // you can use this to add a message before or after the default message 👇
+
+    // the fileHeader function should return an array of strings
+    // which will be formatted in the proper comment style for a given format
+    return [
+      `@许可信息`,
+      `@license`,
+      `ITSI https://github.com/Tangcuyu/lds-design-tokens.git`,
+      `Copyright (c) 2022 ITSI Information Technology Ltd.,`,
+      ``,
+      `版本号：${version}`,
+      ...defaultMessage,
+      `Build hash ${hash}`,
+    ];
+  },
+});
+
 function getStyleDictionaryConfig(brand, platform) {
   return {
     source: [
@@ -212,42 +233,6 @@ StyleDictionaryPackage.registerFormat({
     return JSON.stringify(transformedTokens, null, 2);
   },
 });
-
-StyleDictionaryPackage.registerFileHeader({
-  name: 'myLDSHeader',
-  fileHeader: (defaultMessage) => {
-    // defaultMessage are the 2 lines above that appear in the default file header
-    // you can use this to add a message before or after the default message 👇
-
-    // the fileHeader function should return an array of strings
-    // which will be formatted in the proper comment style for a given format
-    return [
-      `@许可信息`,
-      `@license`,
-      `ITSI https://github.com/Tangcuyu/lds-design-tokens.git`,
-      `Copyright (c) 2022 ITSI Information Technology Ltd.,`,
-      ``,
-      `版本号：${version}`,
-      ...defaultMessage,
-      `Build hash ${hash}`,
-    ];
-  },
-});
-
-// I wanted to use this custom transform instead of the "prefix" property applied to the platforms
-// because I wanted to apply the "token" prefix only to actual tokens and not to the aliases
-// but I've found out that in case of "name/cti/constant" the prefix was not respecting the case for the "prefix" part
-//
-// StyleDictionaryPackage.registerTransform({
-//     name: 'name/prefix-token',
-//     type: 'name',
-//     matcher: function(prop) {
-//         return prop.attributes.category !== 'alias';
-//     },
-//     transformer: function(prop) {
-//         return `token-${prop.name}`;
-//     }
-// });
 
 StyleDictionaryPackage.registerTransformGroup({
   name: 'styleguide',

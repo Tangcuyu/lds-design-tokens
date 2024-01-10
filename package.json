@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node ./build.js",
-    "watch": "chokidar 'src/**/*.json' -c 'node ./build.js'"
+    "watch": "chokidar 'src/**/*.json' -c 'node ./build.js'",
+    "clean:dist": "rm -rf ./dist && mkdir -p ./dist"
   },
   "author": "Tangcuyu",
   "license": "MIT",
